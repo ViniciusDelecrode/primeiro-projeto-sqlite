@@ -56,6 +56,8 @@ def print_hi(name):
         UPDATE person SET name = "VINICIN ATUALIZADO", age = "21" WHERE id = "d2343"
     """)
 
+    mudanca: str = "Sou uma mudança"
+    print(f"Mudança: {mudanca}")
 
     for index, row in enumerate(cursor):
         print(f'ID: {row[0]} | Name: {row[1]} | Age: {row[2]}')
